@@ -1,0 +1,120 @@
+﻿*{ margin:0; padding:0; border:none; font-family:"宋体"; font-size:15px;}
+ul,li{ list-style:none;}
+img,a{ border:none; text-decoration:none;}
+body{ background:#e2d4ba;}
+/*部分群组选择器-------------------------*/
+a.major_word:link,a.major_word:focus,a.major_word:active,a.major_word:visited{ color:#555555;}
+a.banner_word:link,a.banner_word:focus,a.banner_word:active,a.banner_word:visited{ color:rgb(236, 226, 226); font-size:18px; font-weight:bold;}
+a.major_word:hover,a.banner_word:hover,a.banner_word:hover{ text-decoration:underline; color:#f98305;}
+.tongzhigongg ul,.ketang_right ul,{ margin-top:5px;}
+.tongzhigongg ul li{
+    line-height:40px; 
+    background:url(../images/jiantou.gif) no-repeat left center;
+    padding-top:10px;
+    padding-left:18px;
+}
+/*页面用到的超链接
+-------------------------*/
+.all_white{ width:976px; height:auto; overflow:hidden; background:#ffffff; margin:0 auto;}
+.total{ width:976px; height:135px; margin:0 auto; background: url(../images/top.png) no-repeat left top; text-align:right; line-height:38px; color:#ae0000; font-size:14px; font-weight:bold;}
+.pic{ width:976px; height:305px; margin:0 auto;}
+.banner{ width:976px; height:35px; background:#9c0000;background: url(../images/daohang.png) no-repeat left top;}
+#nav{margin: 25px 100px; padding: 0 100px;}
+#nav .mainlevel {float:left; height:35px;border-right:1px solid #fff;width:105px;text-align:center; line-height:35px;}/*导航条背景颜色*/
+#nav .mainlevel ul {display:none;position:absolute; padding-bottom:5px;z-index:1000; background:#dd211f;}
+#nav .mainlevel li { padding-left:10px; padding-right:10px; margin-bottom:3px; height:35px;width:auto;text-align:left;}/*导航条下拉 条的背景颜色*/
+.mainlevel img{ padding-right:5px; line-height:25px; margin-bottom:3px;}
+
+
+.wenben{ width:173px; height:20px; margin-left:18px;}
+.dianji{ width:35px; height:25px; background:none; border:none; cursor:pointer;}
+/* 大轮播图 */
+#container {
+	position: relative;
+	width: 760px;
+    height: 260px;
+   
+}
+#img_list li {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+}
+
+
+.d1{
+	clear: both;
+	width: 760px;
+	height: 460px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*music 1-------------------------*/
+.content_one,.content_two{ width:956px; height:auto; margin:0 auto; clear:both;}
+.tongzhigongg{ width:450px; height:auto; float:left;}
+.dongtai_right{ width:450px; height:auto; float:right;}
+.tongzhigongg p{ text-align:center; margin-top:5px; line-height:26px;}
+.span_biaoti{ font-size:17px; font-weight:bold; padding-left:20px; line-height:30px; color:#b20000;}
+.biaoti{ border-bottom:2px solid lightslategray; height:30px; background:url(../images/bianto.gif) no-repeat left top;}
+.biaoti a{*margin-top:-20px!important; display:block; width:13px; height:11px; float:right; line-height:30px; background:url(../images/more.gif) no-repeat left top; margin-top:10px;}
+/* 实现音乐播放 */
+.tongzhigongg ul li{
+    position: relative;
+}
+.tongzhigongg ul li .main_word{
+    vertical-align: middle;
+}
+.tongzhigongg ul li .m1{
+    position: absolute;
+    left: 240px;
+    width: 220px;
+    display: none;
+    vertical-align: middle;
+}
+.tongzhigongg ul li:hover .m1{
+    display: inline-block;
+
+}
+
+
+/*2小焦点图-------------------------*/
+.comiis_wrap960, .comiis_wrapad { margin: 0 auto; width: 400px; margin-top:10px; }
+.comiis_wrapad { overflow: hidden; width:400px; height:320px; background:#cccccc; }
+.comiis_wrapad img { float: left; margin-top: 0px; }
+.cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.cl { zoom: 1.06; }
+.slideshow { clear: both; text-align:center; margin:12px auto; background:#e6e6e6; height:280px; width:320px;}
+.slideshow li { position: relative; overflow: hidden; }
+.slideshow span{ color: #000; font-weight:bold; overflow: hidden; line-height:33px;}
+.comiis_wrapad li{ background:none;}
+#frameHlicAe { margin: 0px !important; border: 0px !important; }
+.temp { margin: 1px; }
+.block { margin: 10px auto 10px; }
+.block { margin: 0;position: relative; }
+.slidebar li { background:#666666; color:#ffffff;  float: left; border-right:1px solid #ffffff;width: 20px; height: 16px; line-height: 16px; text-align: center; cursor: pointer;}
+.slidebar li.on { background:#ff0000;color: #ffffff; }
+.slidebar { position: absolute; bottom: 42px; right:18px;}
+.slidebar li.on {color: #ffffff; font-weight: 700; }
+
+/*水平滚动图-------------------------*/
+.daguan1{ width:976px; height:18px; clear:both; }
+.daguan{ width:976px; height:200px; clear:both; background:url(../images/chenlie.gif) no-repeat left top;}
+.img-scroll { position:relative; margin-top:10px; margin-bottom:-3px; width:976px; margin-left:6px;}
+ .img-scroll .prev{ position:absolute; display:block; width:17px;top:5px; color:#FFF; text-align:center;margin-top:45px; margin-left:10px; cursor:pointer;}
+ .img-scroll .next { position:absolute; display:block; width:17px;top:5px; color:#FFF; text-align:center;margin-top:45px; margin-right:10px; cursor:pointer;}
+ .img-scroll .prev { left:-6px;}
+ .img-scroll .next { right:-5px;}
+ .img-list { position:relative; width:894px; height:180px; margin-left:30px; overflow:hidden}
+ .img-list ul { width:9999px;}
+ .img-list li{ float:left; display:inline; width:auto; margin-right:10px; height:auto;text-align:center;}
+ .img-list li img{ width:135px; height:130px; padding:3px; border:1px solid #ccc; margin-bottom:5px;}
+
+
+/*4版权声明-------------------------*/
+#footer{width:976px; height:49px; color:grey;background: url(../images/footer1.png) no-repeat; margin:6px auto;}
+#footer .p1,.p2{text-align: center;font-family: "黑体";}
+
+
+
+

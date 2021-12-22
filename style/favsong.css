@@ -1,0 +1,66 @@
+/* 全局 */
+*{ margin:0; padding:0; border:none; font-family:"宋体"; font-size:13px;}
+ul,li{ list-style:none;}
+img,a{ border:none; text-decoration:none;}
+body{ background:#e2d4ba;}
+a.banner_word:link,a.banner_word:focus,a.banner_word:active,a.banner_word:visited{ color:rgb(236, 226, 226); font-size:18px; font-weight:bold;}
+a.major_word:hover,a.banner_word:hover,a.banner_word:hover{ text-decoration:underline; color:#f98305;}
+/* 固定头部 */
+.all_white{width:976px; height:auto; overflow:hidden; margin:0 auto;}
+.total{ width:976px; height:123px; margin:0 auto; background: url(../images/top.gif) no-repeat left top; text-align:right; line-height:38px; color:#ae0000; font-size:14px; font-weight:bold;}
+.banner{ width:976px; height:35px; background:#9c0000;background: url(../images/daohang.png) no-repeat left top;}
+#nav .mainlevel {float:left; height:35px;border-right:1px solid #fff;width:105px;text-align:center; line-height:35px;}/*导航条背景颜色*/
+#nav{margin: 0 100px; padding: 0 100px;}
+#nav .mainlevel ul {display:none;position:absolute; padding-bottom:5px;z-index:1000; background:#dd211f;}
+#nav .mainlevel li { padding-left:10px; padding-right:10px; margin-bottom:3px; height:35px;width:auto;text-align:left;}/*导航条下拉 条的背景颜色*/
+/*4版权声明-------------------------*/
+#footer{width:976px; height:49px; color:grey;background: url(../images/footer1.png) no-repeat; margin:6px auto;}
+#footer .p1,.p2{text-align: center;font-family: "黑体";}
+
+/* 奖项名称 */
+.titles a{
+    display: block;
+    text-align: center;
+    font-family: "宋体";
+    font-size: 20px;
+    color: rgb(235, 240, 245);
+    border-bottom: 2px solid rgb(241, 239, 234);
+    border-bottom-width: 70%;
+    margin:0 auto;
+    padding:10px;
+    
+}
+.titles .gra{
+    color:rgb(126, 78, 78);
+}
+.titles a:hover{
+    transform: scale(1.5);
+    color: #0e0807;
+}
+.titles #gelai{
+    padding: 60px;
+}
+.content{
+   
+    width: 100%;
+    background-image: url(../images/b6.png); 
+    background-size: 100%;background-repeat: no-repeat;
+
+}
+/* 奖项 */
+.award{
+    margin: 10px 80px;
+}
+.award .grammyAward li{
+    display: block;
+    margin-top: 2px;
+}
+.award .grammyAward li span,
+.award .AMA li span,
+.award .billboard li span,
+.award .MTV li span
+{
+       font-size: 18px;
+       line-height: 25px;
+}
+

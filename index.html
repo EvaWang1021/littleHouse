@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html >
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>House to MRs.Darcy</title>
+  <link href="style/css.css" rel="stylesheet" type="text/css" />
+  <!--焦点图-->
+  <script src="js/slideshow.js" type="text/javascript"></script>  
+  <script src="js/jquery.js" type="text/javascript"></script>
+   <!--最下面的滚动图-->
+  <script type="text/javascript" src="js/slide.js"></script>
+</head>
+
+<body onload="timer()">
+  <div class="all_white">
+    <!-- 导航栏以上 -->
+    <div class="total"></div>
+    <!--这里写轮播图的代码-->
+    <div id=container onclick="change()">
+      <ul id=img_list>
+        <li><img src="images/66.jpg" width="976" height="402" /></li>
+        <li><img src="images/3.jpg" width="976" height="402" /></li>
+        <li><img src="images/222.jpg" width="976" height="402" /></li>
+        <li><img src="images/333.jpg" width="976" height="402" /></li>
+        <li><img src="images/111.jpg" width="976" height="402" /></li>
+      </ul>
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="banner">
+      <ul id="nav">
+        <li class="mainlevel"><a class="banner_word" href="index.html">首 页</a></li>
+        <li class="mainlevel"><a class="banner_word" href="arti.html">个人简介</a></li>
+        <li class="mainlevel"><a class="banner_word" href="album.html">专辑介绍</a></li>
+        <li class="mainlevel"><a class="banner_word" href="favsong.html">获奖记录</a></li>
+        <li class="mainlevel" style=" border:none;"><a class="banner_word" href="trouble.html">最喜欢的歌</a></li>
+      </ul>
+    </div>
+    <br><br>
+    <!-- 导航栏以下 分割 -->
+    <div class="content_one">
+      <div class="tongzhigongg">
+        <div class="biaoti"><span class="span_biaoti">热门单曲</span><a href="javascript:void(0);"></a></div>
+        <ul>
+          <li><a class="major_word" href="javascript:void(0);">Dont Wanna Live Forever-TS</a>
+            <audio class="m1" controls="controls" onended="clear_all()">
+              <source src="audios/I Don't Wanna Live ForeverZayn Malik and Taylor Swift.mp3" type="audio/mpeg" />
+            </audio>
+          </li><br>
+          <li><a class="major_word" href="javascript:void(0);">You Belong With Me-Talor swift</a>
+            <audio class="m1" controls="controls" onended="clear_all()">
+              <source src="audios/Talor Swift - You Belong With Me.mp3" type="audio/mpeg" />
+            </audio></li><br>
+          <li><a class="major_word" href="javascript:void(0);">Highway Dont care-Talor swift</a>
+            <audio class="m1" controls="controls" onended="clear_all()">
+              <source src="audios/Highway Don't Care-Tim Mcgraw,Taylor Swift.mp3" type="audio/mpeg" />
+            </audio></li><br>
+          <li><a class="major_word" href="javascript:void(0);">MEAN -Talor swift</a>
+            <audio class="m1" controls="controls" onended="clear_all()">
+              <source src="audios/Taylor Swift - Mean.mp3" type="audio/mpeg" />
+            </audio></li><br>
+
+          <li><a class="major_word" href="javascript:void(0);">Safe And Sound -Talor swift</a>
+            <audio class="m1" controls="controls" onended="clear_all()">
+              <source src="audios/Taylor Swift - Safe And Sound.mp3" type="audio/mpeg" />
+            </audio></li><br>
+
+        </ul>
+      </div>
+      <div class="dongtai_right">
+        <div class="biaoti"><span class="span_biaoti">实力派唱将</span><a href="javascript:void(0);"></a></div>
+        <!-- 代码 开始 -->
+        <div class="comiis_wrapad" id="slideContainer">
+          <div id="frameHlicAe" class="frame cl">
+            <div class="temp"></div>
+            <div class="block">
+              <div class="cl">
+                <ul class="slideshow" id="slidesImgs">
+                  <li><a href="album.html" target="_blank"> <img src="images/red.jpg" width="320" height="238" alt="" /></a><br /><span>霉霉的专辑《red》</span></li>
+                  <li><a href="album.html" target="_blank"> <img src="images/7.jpg" width="320" height="238" alt="" /></a><br /><span>霉霉的专辑《1989》</span></li>
+                  <li><a href="album.html" target="_blank"> <img src="images/reputation.jpg" width="320" height="238"
+                        alt="" /></a><br /><span>霉霉的专辑《reputation》</span></li>
+                </ul>
+              </div>
+              <div class="slidebar" id="slideBar">
+                <ul>
+                  <li class="on">1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 小轮播图 -->
+        <script type="text/javascript">
+          SlideShow(3000);
+        </script>
+        <!-- 代码 结束 -->
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- 分割线 -->
+  <center>
+    <div class="daguan">
+      <div class="biaoti" style="width:960px; background:none; margin:8px auto;"><span style="padding:0;" class="span_biaoti">美霉的杂志靓照</span><a
+          href="javascript:void(0);"></a>
+      </div>
+
+      <div class="img-scroll"> <span class="prev"></span> <span class="next"></span>
+        <div class="img-list">
+          <ul>
+            <li><a href="javascript:void(0);" target="_blank"><img src="images/NME.jpg" /></a><br />
+              <span>TS-NME</span></li>
+            <li><a href="javascript:void(0);" target="_blank"><img src="images/Vogue.jpg" /></a><br />
+              <span>TS-Vogue</span></li>
+            <li><a href="javascript:void(0);" target="_blank"><img src="images/Vogue1.jpg" /></a><br />
+              <span>TS-Vogue</span></li>
+            <li><a href="javascript:void(0);" target="_blank"><img src="images/You.jpg" /></a><br />
+              <span>TS-You</span></li>
+            <li><a href="javascript:void(0);" target="_blank"><img src="images/BAZAAR.jpg" /></a><br />
+              <span>TS-BAZAAR</span></li>
+            <li><a href="javascript:void(0);" target="_blank"><img src="images/5.jpg" /></a><br />
+              <span>TS-Guuci</span></li>
+            <li><a href="javascript:void(0);" target="_blank"><img src="images/shishang.jpg" /></a><br />
+              <span>TS-时尚</span></li>
+            <li><a href="javascript:void(0);" target="_blank"><img src="images/CityView.jpg" /></a><br />
+              <span>TS-CityView</span></li>
+            <li><a href="javascript:void(0);" target="_blank"><img src="images/Parade.jpg" /></a><br />
+              <span>TS-Parade</span></li>
+            <li><a href="javascript:void(0);" target="_blank"><img src="images/BAZAAR1.jpg" /></a><br />
+              <span>TS-BAZAAR</span></li>
+  </center>
+  </ul>
+  </div>
+  </div>
+  </div>
+  <div id=footer>
+    <p class=p1>House to MRs.Darcy</p>
+    <strong>
+      <p class=p2>版权所有16计科王英杰设计</p>
+    </strong>
+
+  </div>
+  <script type="text/javascript">
+    // 点击切换照片
+    var i = 401;
+    var img_list;
+    var li_list;
+
+    function change() {
+      li_list[i % (li_list.length)].style.visibility = "visible";
+      li_list[(i - 1) % (li_list.length)].style.visibility = "hidden";
+      i++;
+    }
+
+    function change_back() {
+      i--;
+      li_list[(i - 1) % (li_list.length)].style.visibility = "visible";
+      li_list[i % (li_list.length)].style.visibility = "hidden";
+    }
+
+    function timer() {
+      img_list = document.getElementById("img_list");
+      li_list = img_list.getElementsByTagName("li");
+      li_list[0].style.visibility = "visible";
+      var myTime = setInterval("change()", 3000);
+      canvas = document.getElementById('mycanvas');
+      cxt = canvas.getContext('2d');
+    }
+
+    function DY_scroll(wraper, prev, next, img, speed, or) {
+      var wraper = $(wraper);
+      var prev = $(prev);
+      var next = $(next);
+      var img = $(img).find('ul');
+      var w = img.find('li').outerWidth(true);
+      var s = speed;
+      next.click(function () {
+        img.animate({
+          'margin-left': -w
+        }, function () {
+          img.find('li').eq(0).appendTo(img);
+          img.css({
+            'margin-left': 0
+          });
+        });
+      });
+      prev.click(function () {
+        img.find('li:last').prependTo(img);
+        img.css({
+          'margin-left': -w
+        });
+        img.animate({
+          'margin-left': 0
+        });
+      });
+      if (or == true) {
+        ad = setInterval(function () {
+          next.click();
+        }, s * 2000);
+        wraper.hover(function () {
+          clearInterval(ad);
+        }, function () {
+          ad = setInterval(function () {
+            next.click();
+          }, s * 2000);
+        });
+      }
+    }
+    // true为自动播放，不加此参数或false就默认不自动
+    DY_scroll('.img-scroll', '.prev', '.next', '.img-list', 1, true); 
+  </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* 全局 */
+*{ margin:0; padding:0; border:none; font-family:"宋体"; font-size:13px;}
+ul,li{ list-style:none;}
+img,a{ border:none; text-decoration:none;}
+body{ background:#e2d4ba;}
+a.banner_word:link,a.banner_word:focus,a.banner_word:active,a.banner_word:visited{ color:rgb(236, 226, 226); font-size:18px; font-weight:bold;}
+a.major_word:hover,a.banner_word:hover,a.banner_word:hover{ text-decoration:underline; color:#f98305;}
+/* 固定头部 */
+.all_white{ width:976px; height:auto; overflow:hidden; background:#fababa; margin:0 auto;}
+.total{ width:976px; height:123px; margin:0 auto; background: url(../images/top.gif) no-repeat left top; text-align:right; line-height:38px; color:#ae0000; font-size:14px; font-weight:bold;}
+.banner{ width:976px; height:35px; background:#9c0000;background: url(../images/daohang.png) no-repeat left top;}
+#nav{margin: 0 100px; padding: 0 100px;}
+#nav .mainlevel {float:left; height:35px;border-right:1px solid #fff;width:105px;text-align:center; line-height:35px;}/*导航条背景颜色*/
+#nav .mainlevel ul {display:none;position:absolute; padding-bottom:5px;z-index:1000; background:#dd211f;}
+#nav .mainlevel li { padding-left:10px; padding-right:10px; margin-bottom:3px; height:35px;width:auto;text-align:left;}/*导航条下拉 条的背景颜色*/
+/*4版权声明-------------------------*/
+#footer{width:976px; height:49px; color:grey;background: url(../images/footer1.png) no-repeat; margin:6px auto;}
+#footer .p1,.p2{text-align: center;font-family: "黑体";}
+/* 图片 */
+.content{
+    position: relative;
+ }
+.content .down img,.up img,.mid img{  
+  
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 4px;
+    border: 5px solid rgb(248, 243, 243);
+    float: left;  
+    width: 300px;
+    height: 340px; 
+}
+a:hover img{background-color: rgb(238, 16, 16)}
+.up img,.mid img{
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+.content .down p,.up p,.mid p{ 
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 15px; 
+    letter-spacing: 2px;
+    line-height: 28px;  
+    text-indent: 2em;
+    font-size: 18px;
+    font-family: "微软雅黑";
+
+}
+
+/* 上部分 */
+.down{
+    margin-top: 20px;
+    display: inline-block;
+    clear: both;
+    float: right;  
+}
+/* 中间部分 */
+.mid{
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+}
+/* 下部分 */
+.up{
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+}
